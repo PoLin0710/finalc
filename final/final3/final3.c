@@ -4,9 +4,9 @@
 int main()
 {
 	FILE* f1, * f2, * r;
-	f1 = fopen("file1.txt", "r");
-	f2 = fopen("file2.txt", "r");
-	r = fopen("result3.txt", "w");
+	f1 = fopen("final3/file1.txt", "r");
+	f2 = fopen("final3/file2.txt", "r");
+	r = fopen("final3/result3.txt", "w");
 
 	double num[200];
 

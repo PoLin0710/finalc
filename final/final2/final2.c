@@ -12,9 +12,9 @@ int main()
 	Menu menu[100];
 	int mpr = 0;
 	FILE* M, * O, * R;
-	M = fopen("menu.txt", "r");
-	O = fopen("order.txt", "r");
-	R = fopen("result2.txt", "w");
+	M = fopen("final2/menu.txt", "r");
+	O = fopen("final2/order.txt", "r");
+	R = fopen("final2/result2.txt", "w");
 	while (fscanf(M, "%s %d", menu[mpr].name, &menu[mpr].money) != EOF)
 	{
 		mpr++;
