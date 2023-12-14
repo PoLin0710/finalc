@@ -15,7 +15,7 @@ void find(char maze[][11], int start[])
 	}
 }
 
-void findend(char maze[][11], int start[], int x, int y,int dir) //°g®c¥D­n§PÂ_
+void findend(char maze[][11], int start[], int x, int y,int dir) //è¿·å®®ä¸»ç¨‹å¼(ä¸€å®šæœ‰çµ‚é»)
 {
 	if (maze[y][x] == 'O')
 	{	
